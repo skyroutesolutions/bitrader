@@ -16,7 +16,7 @@ document.addEventListener('DOMContentLoaded', function () {
 // =================== light and dark start ================== //
 
 const colorSwitcher = document.getElementById('btnSwitch');
-
+localStorage.setItem("theme", "dark");
 
 switchThemeByUrl();
 updateThemeColor(localStorage.getItem('theme'))
